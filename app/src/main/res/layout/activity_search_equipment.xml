@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2e2e2"
+    android:orientation="vertical"
+    tools:context=".SearchEquipmentActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/headercolor"
+        app:title="Search Equipment"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:titleTextColor="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:titleMarginStart="80dp"
+        app:menu="@menu/menu_workspace"/>
+
+    <SearchView
+        android:id="@+id/search_equip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:elevation="2dp"
+        android:padding="2dp"
+        android:queryBackground="@android:color/transparent"
+        android:queryHint="Search here"
+        app:queryBackground="@android:color/transparent" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_equipment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <!--<ListView
+        android:id="@+id/listview_equip_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="6dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="15sp"
+        android:elevation="2dp"
+        android:orientation="vertical"
+        android:padding="2dp" />-->
+
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/create_fr"
+            android:title="Create Fault Report"/>
+        <item
+            android:id="@+id/search_fr"
+            android:title="Search Fault Report"/>
+
+        <item
+            android:id="@+id/scan_fr"
+            android:title="Scan Fault Report"/>
+
+        <item
+            android:id="@+id/search_tsk"
+            android:title="Search Task"/>
+
+        <item
+            android:id="@+id/scan_tsk"
+            android:title="Scan Task"/>
+
+    </group>
+
+
+</menu>

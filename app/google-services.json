@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "201059358209",
+    "project_id": "cmmsiboot",
+    "storage_bucket": "cmmsiboot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201059358209:android:5c64145ccd8c3435091200",
+        "android_client_info": {
+          "package_name": "com.example.cmmsiboot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201059358209-1u8fiilao9noepronjohiaveuiiafgld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM93I4NNrcyhbstfusBCTrXAd8gr-H5RQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201059358209-1u8fiilao9noepronjohiaveuiiafgld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
